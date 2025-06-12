@@ -38,7 +38,6 @@
 # FAST API 설치
 ```
 pip install fastapi uvicorn sqlalchemy
-
 ```
 
 # 통신 규칠

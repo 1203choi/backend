@@ -1,3 +1,4 @@
+# 데이터베이스 생성 FastAPI + sqlite 연동 환경
 from sqlalchemy import create_engine # DB 연결 엔진
 from sqlalchemy.orm import sessionmaker, declarative_base # DB 세션, 모델 베이스 생성
 
