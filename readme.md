@@ -34,3 +34,20 @@
 - 모든 API는 `/api` 경로로 시작
 - 사용자별 조회는 `user_id` 쿼리 파라미터 사용
 - 관리자 기능은 별도 권한 확인 필요
+
+# FAST API 설치
+```
+pip install fastapi uvicorn sqlalchemy
+
+```
+
+# 통신 규칠
+```
+통신        json 포맷으로 한다
+
+인증        쿠키, 세션대신 단순 로그인 응답으로 user_id 유지(js변수에 저장)
+
+응답메세지    {success:true, date:...} 형식
+
+에러처리     {success:false, error:'메세지'} 통일
+```
